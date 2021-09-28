@@ -18,7 +18,7 @@ import VideoPlay from './components/video-play.vue'
 import VideoInfo from './components/video-info.vue'
 import VideoBottom from './components/video-bottom.vue'
 
-// 🔔 ? 表示参数是可选的，可有可无
+// 🔔 ? 表示属性是可选的，可有可无
 export interface IVideoInfo {
   author?: string
   authorIconSrc?: string

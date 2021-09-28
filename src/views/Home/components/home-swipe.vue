@@ -7,7 +7,6 @@
 </template>
 
 <script setup lang="ts">
-// 用于定义模板中使用的响应式数据，相当于 Vue2 的 data
 import { ref } from 'vue'
 import axios from 'axios'
 
@@ -15,6 +14,7 @@ interface ISwiper {
   imgSrc: string
   link: string
 }
+// ref 函数用于定义模板中使用的响应式数据，相当于 Vue2 的 data
 const list = ref<ISwiper[]>([])
 
 axios({

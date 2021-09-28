@@ -16,7 +16,7 @@ interface INavItem {
 
 const active = ref(0)
 // 频道数据， <INavItem[]> 表示 list 数据为数组，数组的每一项需要复合 INavItem 接口的格式
-// TypeScript 好处：模板中使用 list 和 item 的时候，鼠标移入有类型提醒
+// TypeScript 好处：模板中使用 list 和 item 的时候，书写代码有类型提示，鼠标悬停变量也有类型提醒
 const list = ref<INavItem[]>([])
 
 axios({

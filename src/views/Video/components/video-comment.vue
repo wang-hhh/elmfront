@@ -28,7 +28,7 @@ axios({
   method: 'get',
   url: '/commentsList'
 }).then(({ data }) => {
-  console.log(data.result)
+  console.log('评论数据', data.result)
   list.value = data.result.items
 })
 </script>

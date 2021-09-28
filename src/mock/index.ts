@@ -8,7 +8,7 @@ import videoDetailList from './data/videoDetailList'
 
 // mock的配置
 Mock.setup({
-  // 随机延时500-1000毫秒
+  // 随机延时50-1000毫秒
   timeout: '50-1000'
 })
 
