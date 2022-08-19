@@ -21,20 +21,9 @@
 
 <script lang="ts" setup>
 import { defineProps, PropType } from 'vue'
+// 🔔 进阶用法：如果多个地方都用到同样的接口定义，还可以把接口抽离出去独立维护
+import { IVideoInfo } from '../types'
 
-interface IVideoInfo {
-  author?: string
-  authorIconSrc?: string
-  commentCount?: number
-  date?: string
-  id?: string
-  poster?: string
-  playCount?: string
-  likeCount?: string
-  favCount?: string
-  videoSrc?: string
-  videoTitle?: string
-}
 defineProps({
   videoInfo: {
     type: Object as PropType<IVideoInfo>,

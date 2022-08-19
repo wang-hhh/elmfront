@@ -2,7 +2,8 @@
   <header class="app-header">
     <!-- logo -->
     <a class="logo" href="#">
-      <i class="iconfont Navbar_logo"></i>
+      此处放图
+<!--      <i class="iconfont Navbar_logo"></i>-->
     </a>
     <!-- 搜索 -->
     <a class="search" href="#">
@@ -12,8 +13,8 @@
     <a class="face" href="#">
       <img src="@/assets/images/login.png" />
     </a>
-    <!-- 下载按钮 -->
-    <div class="down-app">下载 APP</div>
+<!--    &lt;!&ndash; 下载按钮 &ndash;&gt;-->
+<!--    <div class="down-app">下载 APP</div>-->
   </header>
 </template>
 
